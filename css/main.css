@@ -99,3 +99,10 @@ h1{
     border-radius: 11px;
 
 }
+
+@media screen and (max-width: 800px) {
+    .main{
+     margin: 0; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
