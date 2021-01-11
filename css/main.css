@@ -3,6 +3,13 @@ body{
     padding: 0;
     background-image: linear-gradient(rgb(155, 155, 226),rgba(238,238,248,0.9));
 }
+.developer{
+    color: #d4b06e;
+    font-size: 12px;
+    float: right;
+  
+}
+
 .main{
     background: #0c0a2d;
     margin: 54px 304px;
@@ -23,6 +30,7 @@ h1{
     font-family: cursive;
     margin: 0;
     color: #9090c5;
+      padding-left: 140px;
 }
 .container{
     border: 2px solid white;
