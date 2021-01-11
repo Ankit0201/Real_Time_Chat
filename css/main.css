@@ -104,5 +104,9 @@ h1{
     .main{
      margin: 0; /* The width is 100%, when the viewport is 800px or smaller */
     }
+    h1{
+        text-align:none;
+        padding-left: 20px;
+    }
   }
   
