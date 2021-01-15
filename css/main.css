@@ -41,6 +41,7 @@ h1{
     height: 65vh;
     position: relative;
     overflow: auto;
+   
 }
 
 .userName{
@@ -100,6 +101,7 @@ h1{
 
 }
 
+
 @media screen and (max-width: 800px) {
     .main{
      margin: 0; /* The width is 100%, when the viewport is 800px or smaller */
@@ -107,6 +109,9 @@ h1{
     h1{
         text-align:none;
         padding-left: 20px;
+    }
+    .btn{
+        width: auto;
     }
   }
   

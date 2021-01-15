@@ -37,7 +37,10 @@ e.preventDefault();
 const message=messageInput.value;
 append(`You: ${message}`,'right');
 socket.emit('send',message);
-$(".emojionearea-editor").html('')
+$(".emojionearea-editor").html('');
+// let msgConatiner=document.getElementById('container');
+
+messageContainer.scroll(0,messageContainer.clientHeight)
 
 })
 const userName=prompt("Enter your name to join");
